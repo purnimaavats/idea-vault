@@ -1,26 +1,36 @@
+/* app/globals.css */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+    /* Adding the exact pastel dashboard tones */
+    --color-vault-bg: #f7f4eb; /* The soft cream background */
+    --color-vault-canvas: #ffffff; /* Clean white card canvas */
+    --color-vault-text: #1e1e1e; /* Dark charcoal text */
+    --color-vault-gray: #767676; /* Muted menu text */
+    --color-vault-hover: #efece3; /* Hover background state */
+    --color-vault-border: #ebe8df; /* Vault border color */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+    --color-vault-accent: #ffe57f; /* The warm pastel yellow button */
+    --color-vault-accent-hover: #fdd835; /* Darker yellow hover state */
+    --color-vault-ring: #fde68a; /* Amber-200 replacement for focus rings */
+    --color-vault-card-bg: #f9f9f7; /* Clean neutral gray/cream for inputs */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    /* Pipeline Columns (Soft Pastel Backgrounds) */
+    --color-col-selected: #e2f5ec; /* Active: Soft Mint */
+    --color-col-done: #e8f0fe; /* Shipped: Soft Blue */
+    --color-col-later: #fef7e0; /* Backlog: Soft Yellow */
+    --color-col-rejected: #fce8e6; /* Archived: Soft Rose */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    /* Status Badges & Text (Darker versions for readability) */
+    --color-badge-selected-bg: #e2f5ec;
+    --color-badge-selected-text: #137333;
+
+    --color-badge-done-bg: #e8f0fe;
+    --color-badge-done-text: #1a73e8;
+
+    --color-badge-later-bg: #fef7e0;
+    --color-badge-later-text: #b06000;
+
+    --color-badge-rejected-bg: #fce8e6;
+    --color-badge-rejected-text: #c5221f;
 }

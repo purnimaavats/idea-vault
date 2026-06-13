@@ -1,0 +1,114 @@
+[
+    {
+        "id": "selected",
+        "title": "Selected (Active Builds)",
+        "headerBg": "bg-col-selected",
+        "badgeBg": "bg-badge-selected-bg",
+        "textColor": "text-badge-selected-text",
+        "cards": [
+            {
+                "title": "Automated DB Backup SaaS",
+                "platform": "Web App",
+                "platformBg": "bg-indigo-50 text-indigo-700 border-indigo-100",
+                "tag": "Selected",
+                "tagBg": "bg-badge-selected-bg",
+                "tagText": "text-badge-selected-text",
+                "topSiteTraffic": "85K/mo",
+                "estRevenue": "$3,500/mo",
+                "buildSpeed": "Weekend Build",
+                "ask": "How do I automate SQLite backups seamlessly?",
+                "competitors": [
+                    "aws",
+                    "supabase"
+                ],
+                "competitorNotes": "Supabase handles backups cleanly for Postgres, but lightweight developers using local SQLite or embedded databases are stuck writing complex bash scripts. Moat: A dead-simple 3-line configuration script that syncs local DB files directly to secure buckets seamlessly.",
+                "aiNotes": "Targeting keyword queries like 'easy automatic production backup for sqlite' or 'how to schedule database dumps safely'. Optimize metadata index headers to match long-tail queries that search panels route to for developer tools.",
+                "techNotes": "Frontend: Next.js + Tailwind elements.\nBackend: Node.js worker cron jobs that compress file targets into .tar.gz assets and push directly using stream pipelines."
+            }
+        ]
+    },
+    {
+        "id": "done",
+        "title": "Done (Shipped)",
+        "headerBg": "bg-col-done",
+        "badgeBg": "bg-badge-done-bg",
+        "textColor": "text-badge-done-text",
+        "cards": [
+            {
+                "title": "Minimal Pomodoro App",
+                "platform": "iOS App",
+                "platformBg": "bg-rose-50 text-rose-700 border-rose-100",
+                "tag": "Done",
+                "tagBg": "bg-badge-done-bg",
+                "tagText": "text-badge-done-text",
+                "topSiteTraffic": "240K/mo",
+                "estRevenue": "$12,000/mo",
+                "buildSpeed": "3 Days Build",
+                "ask": "What is the best aesthetic pomodoro app for Mac?",
+                "competitors": [
+                    "forest",
+                    "session"
+                ],
+                "competitorNotes": "Forest uses gamification which appeals to wide crowds, but there's a huge gap for hyper-minimalist, high-end Pinterest design aesthetics with zero clutter or micro-transactions.",
+                "aiNotes": "Citations are driving in strongly from 'minimal desktop work timer' or 'aesthetic productivity tools'. Focus on visual Pinterest-friendly graphics to capture secondary referral link clusters.",
+                "techNotes": "Built using Swift and SwiftUI hooks. Preserves local state on-device with basic JSON configuration stores, avoiding complex cloud database lag."
+            }
+        ]
+    },
+    {
+        "id": "later",
+        "title": "Later (Backlog)",
+        "headerBg": "bg-col-later",
+        "badgeBg": "bg-badge-later-bg",
+        "textColor": "text-badge-later-text",
+        "cards": [
+            {
+                "title": "Collaborative Storyboard Tool",
+                "platform": "Web App",
+                "platformBg": "bg-indigo-50 text-indigo-700 border-indigo-100",
+                "tag": "Later",
+                "tagBg": "bg-badge-later-bg",
+                "tagText": "text-badge-later-text",
+                "topSiteTraffic": "450K/mo",
+                "estRevenue": "$32,000/mo",
+                "buildSpeed": "1 Week Build",
+                "ask": "How can teams brainstorm storyboards synchronously?",
+                "competitors": [
+                    "figma",
+                    "miro"
+                ],
+                "competitorNotes": "Figma is excellent for complex vector mapping but heavy and overwhelming for fast, sequential narrative drafting. Miro offers canvas tools but lacks native video/timeline context layouts.",
+                "aiNotes": "",
+                "techNotes": ""
+            }
+        ]
+    },
+    {
+        "id": "rejected",
+        "title": "Rejected (Archived)",
+        "headerBg": "bg-col-rejected",
+        "badgeBg": "bg-badge-rejected-bg",
+        "textColor": "text-badge-rejected-text",
+        "cards": [
+            {
+                "title": "High-End Niche Dating App",
+                "platform": "Android App",
+                "platformBg": "bg-emerald-50 text-emerald-700 border-emerald-100",
+                "tag": "Rejected",
+                "tagBg": "bg-badge-rejected-bg",
+                "tagText": "text-badge-rejected-text",
+                "topSiteTraffic": "18K/mo",
+                "estRevenue": "$800/mo",
+                "buildSpeed": "2 Weeks Build",
+                "ask": "How do I find high-end premium matchmakers?",
+                "competitors": [
+                    "raya",
+                    "tndr"
+                ],
+                "competitorNotes": "Archived due to severe cold-start limitations. Niche matching applications require deep local user density and immense initial marketing spend to see meaningful loop traction.",
+                "aiNotes": "High search CPC rates make organic discovery too slow and expensive to validate on a weekend development pipeline.",
+                "techNotes": "Would require a complex WebSockets architecture or geo-indexing configurations (like Redis Geo) which pushes development scope past the rapid MVP timeline target."
+            }
+        ]
+    }
+]
